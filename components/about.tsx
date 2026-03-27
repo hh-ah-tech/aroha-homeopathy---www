@@ -45,7 +45,7 @@ const ServiceCard2 = ({ title = "Hello", description = <>World</>, btn = "Learn 
                 <h1 className="mt-10 text-2xl tracking-tighter sm:text-4xl text-center max-w-xl place-content-center">{title}</h1>
                 <p className="mt-6 text-base leading-6  max-w-xs text-center">{description}</p>
             </div>
-            <a href="#services" className="rounded-full gap-3 bg-white px-7.5 py-4.5 text-base font-semibold text-gray-900">{btn}</a>
+            <a href="#contact" className="rounded-full gap-3 bg-white px-7.5 py-4.5 text-base font-semibold text-gray-900">{btn}</a>
         </div>
     </div>
 

@@ -1,3 +1,5 @@
+import CalButton from "./calcom";
+
 const Hero = () => {
   return (
   <>
@@ -15,8 +17,13 @@ const Hero = () => {
           <a href="#about">About</a>
           <a href="#services">Services</a>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#contact" className="justify-center rounded-full gap-3 bg-orange-800 px-7.5 py-4.5 text-base font-semibold text-white">Contact Us <span aria-hidden="true">→</span></a>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
+          <div className="justify-center rounded-full gap-3 bg-orange-800 px-7.5 py-4.5 text-base font-semibold text-white">
+            <CalButton/><span aria-hidden="true">→</span>
+          </div>
+          {/* <a href="#contact" >
+            Contact Us
+           </a> */}
         </div>
       </div>
       </div>

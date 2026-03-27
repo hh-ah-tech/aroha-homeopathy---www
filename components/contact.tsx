@@ -1,3 +1,5 @@
+import CalButton from "./calcom";
+
 const contact = () => {
     return (
         <div className="relative h-120 w-full overflow-hidden h-150 md:h-120">
@@ -16,7 +18,9 @@ const contact = () => {
                         Email: kejal1719@gmail.com
                     </p>
                 </div>
-                <a href="#contact" className="rounded-full gap-3 bg-white px-7.5 py-4.5 text-base font-semibold text-gray-800">Contact Us</a>
+                <div className="rounded-full gap-3 bg-white px-7.5 py-4.5 text-base font-semibold text-gray-800">
+                <CalButton />
+                </div>
             </div>
         </div>
     )
