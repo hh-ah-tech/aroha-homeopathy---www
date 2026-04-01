@@ -9,7 +9,7 @@ export default function CalButton() {
         })();
     }, [])
     return <button data-cal-namespace="15min"
-        data-cal-link="roney-gajjar-qbehlx/15min"
+        data-cal-link="aroha-homeopathy-jku96j/secret"
         data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
     >Contact us</button>;
 };

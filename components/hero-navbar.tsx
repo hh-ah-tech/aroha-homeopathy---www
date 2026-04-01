@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex lg:flex-1">
           <a href="#home" className="-m-1.5 p-1.5">
             <span className="sr-only" >Your Company</span>
-            <img src="/sonalogo.svg" alt="" className="h-8 w-auto" />
+            <img src="/aroha-logo.svg" alt="" className="h-8 w-auto" />
           </a>
         </div>
         <div className="hidden lg:flex lg:gap-x-12 text-base leading-6 text-gray-900">
